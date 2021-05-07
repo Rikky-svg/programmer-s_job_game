@@ -1,0 +1,203 @@
+<!--
+
+    <English>
+    PLEASE DO NOT EDIT OR DELETE FILES
+
+    <Russian>
+    ПРОСЬБА НЕ РЕДАКТИРОВАТЬ И НЕ УДАЛЯТЬ ФАЙЛЫ
+
+-->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Programmer's job</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body lang="en">
+
+        <div class="conteiner">
+
+            <div class="store-close" id="store">
+                <div class="projects">
+                    <div id="pt-1" onclick="btnBuy(pt1, nOne, 3, 100, 10)" class="project">
+                        <div id="n1" class="name">проект</div>
+                        <div class="cost-project">
+                            <div class="dol-project">$</div>
+                            <div id="cost-project">100</div>
+                        </div>
+                        <div class="buy">buy</div>
+                    </div>
+                    <div id="pt-2" onclick="btnBuy(pt2, nTwo, 5, 500, 50)" class="project">
+                        <div id="n2" class="name">проект</div>
+                        <div class="cost-project">
+                            <div class="dol-project">$</div>
+                            <div id="cost-project">500</div>
+                        </div>
+                        <div class="buy">buy</div>
+                    </div>
+                    <div class="project">
+                        <div class="name">проект</div>
+                        <div class="cost-project">
+                            <div class="dol-project">$</div>
+                            <div id="cost-project">0</div>
+                        </div>
+                        <div class="buy">buy</div>
+                    </div>
+                    <div class="project">
+                        <div class="name">проект</div>
+                        <div class="cost-project">
+                            <div class="dol-project">$</div>
+                            <div id="cost-project">0</div>
+                        </div>
+                        <div class="buy">buy</div>
+                    </div>
+                    <div class="project">
+                        <div class="name">проект</div>
+                        <div class="cost-project">
+                            <div class="dol-project">$</div>
+                            <div id="cost-project">0</div>
+                        </div>
+                        <div class="buy">buy</div>
+                    </div>
+                    <div class="project">
+                        <div class="name">проект</div>
+                        <div class="cost-project">
+                            <div class="dol-project">$</div>
+                            <div id="cost-project">0</div>
+                        </div>
+                        <div class="buy">buy</div>
+                    </div>
+                    <div class="project">
+                        <div class="name">проект</div>
+                        <div class="cost-project">
+                            <div class="dol-project">$</div>
+                            <div id="cost-project">0</div>
+                        </div>
+                        <div class="buy">buy</div>
+                    </div>
+                    <div class="project">
+                        <div class="name">проект</div>
+                        <div class="cost-project">
+                            <div class="dol-project">$</div>
+                            <div id="cost-project">0</div>
+                        </div>
+                        <div class="buy">buy</div>
+                    </div>
+                    <div class="project">
+                        <div class="name">проект</div>
+                        <div class="cost-project">
+                            <div class="dol-project">$</div>
+                            <div id="cost-project">0</div>
+                        </div>
+                        <div class="buy">buy</div>
+                    </div>
+                </div>
+                <div onclick="storeOpen()" class="btn-store">
+                    store
+                </div>
+            </div>
+
+
+            <div class="money dollars">
+                <div class="money-block">
+                    <div class="s">$ </div>
+                    <div id="money"></div>
+                </div>
+            </div>
+
+            <div onclick="btnKeyboard()" class="keyboard"></div>
+
+            <div class="bottom-content">
+                <div class="company">
+                    <div class="company-static">Вы работаете на</div>
+                    <div class="company-interactive" id="company">компания</div>
+                </div>
+
+                <div onclick="jobUp()" class="job-button">повысить должность</div>
+
+                <div class="message">
+                    <div class="message-text-1">Чтобы повысить должность вам надо зароботать ещё </div>
+                    <div class="message-interactive">
+                        <div class="message-text-2">$</div>
+                        <div class="massage-text-3" id="lack">0</div>
+                    </div>
+                </div>
+
+                <div class="money-click">
+                    <div class="text">Вы получаете: </div>
+                    <div class="cost-click">
+                        <div class="dollar-cost">$ </div>
+                        <div class="cost" id="costClick"></div>
+                        <div class="click">/click</div>
+                    </div>
+                </div>
+                <div class="money-sec">
+                    <div class="text">Ваши проекты приносят: </div>
+                    <div class="cost-sec">
+                        <div class="dollar-cost">$ </div>
+                        <div class="cost" id="costSec"></div>
+                        <div class="sec">/sec</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="left">
+            <div id="message-pt-none">
+                Вы не можете купить проект.
+            </div>
+            <div class="completed" id="completed"></div>
+            <div id="name-process"></div>
+            <div id="message-pt-yes">
+                Проект выполнен.
+            </div>
+        </div>
+
+        <div class="info-block-close" id='info'>
+            <div class="info-content">
+                <div class="text-info-1">
+                    <h3>Заголовок</h3>
+                    <div class="text">
+                        Информация о какой-либо механике для понимания, как она работает.
+                        Информация о какой-либо механике для понимания, как она работает.
+                        Информация о какой-либо механике для понимания, как она работает.
+                        Информация о какой-либо механике для понимания, как она работает.
+                    </div>
+                </div>
+                <div class="text-info-1">
+                    <h3>Заголовок</h3>
+                    <div class="text">
+                        Информация о какой-либо механике для понимания, как она работает.
+                        Информация о какой-либо механике для понимания, как она работает.
+                        Информация о какой-либо механике для понимания, как она работает.
+                        Информация о какой-либо механике для понимания, как она работает.
+                    </div>
+                </div>
+                <div class="text-info-1">
+                    <h3>Заголовок</h3>
+                    <div class="text">
+                        Информация о какой-либо механике для понимания, как она работает.
+                        Информация о какой-либо механике для понимания, как она работает.
+                        Информация о какой-либо механике для понимания, как она работает.
+                        Информация о какой-либо механике для понимания, как она работает.
+                    </div>
+                </div>
+            </div>
+            <div onclick="infoOpen()" class="info-btn">
+                <img src="https://drive.google.com/file/d/1zj7KPtJwKTX479whYknRhbqgJDTKtLg5/view?usp=sharing">
+                <div class="help">help</div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+        <!--
+        <script src="tests/test.js"></script>
+        -->
+    </body>
+</html>

@@ -1,0 +1,299 @@
+/*
+
+    <English>
+    PLEASE DO NOT EDIT OR DELETE FILES
+
+    <Russian>
+    ПРОСЬБА НЕ РЕДАКТИРОВАТЬ И НЕ УДАЛЯТЬ ФАЙЛЫ
+
+*/
+
+html, 
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow: hidden;
+}
+
+.conteiner {
+    width: 700px;
+    height: 935px;
+    border: 1px solid #000;
+    text-align: center;
+    display: grid;
+    margin: 0 auto;
+}
+
+.money {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 100px auto 0 auto;
+}
+
+.money-block {
+    display: flex;
+}
+
+.keyboard {
+    margin-top: -40px;
+    background-image: url(img/keyboard-with-shadow.svg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 280px;
+    cursor: pointer;
+}
+
+.keyboard:active {
+    background-image: url(img/keyboard-not-shadow.svg);
+}
+
+
+.bottom-content {
+    display: grid;
+
+}
+
+.company {
+    margin-top: -100px;
+}
+
+.company-interactive {
+    font-weight: 600;
+}
+
+.job-button {
+    margin: -80px auto 0 auto;
+    font-size: 18px;
+    background-color: #000;
+    width: 250px;
+    height: 30px;
+    padding: 10px 10px 5px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.job-button:active {
+    padding: 7px 7px 2px 7px;
+    border: 3px solid #888888;
+}
+
+.message {
+    margin-top: -60px;
+    font-size: 14px;
+    color: #FF0000;
+}
+
+.message-interactive {
+    width: 50px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.money-click, 
+.money-sec {
+    color: #000;
+    text-align: center;
+    margin: -40px auto 0 auto;
+    font-size: 18px;
+    width: 300px;
+    display: grid;
+}
+
+.money-click {
+    margin-top: -50px;
+}
+
+.cost-click, 
+.cost-sec {
+    display: flex;
+    margin: -30px auto 0 auto;
+}
+
+
+/*--------------------------------------------
+    STORE
+--------------------------------------------*/
+
+.store-close {
+    position: fixed;
+    margin: -511px auto 0 auto;
+    transition: 1s;
+}
+
+.store-open {
+    margin-top: 0px!important;
+    transition: 1s;
+}
+
+.projects {
+    background-color: #000;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 700px;
+    height: 500px;
+    padding: 5px 0;
+    overflow-y: scroll;
+}
+
+.project {
+    background-color: #fff;
+    height: 50px;
+    width: 600px;
+    margin: 10px auto 10px auto;
+    display: flex;
+}
+
+.name {
+    color: black;
+    margin: auto 0 auto 10px;
+    font-weight: 600;
+    width: 400px;
+    text-align: left;
+}
+
+.cost-project {
+    margin: auto 0;
+    display: flex;
+    width: 120px;
+    font-weight: 600;
+}
+
+.buy {
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    max-height: 40px;
+    padding: 5px;
+    margin: auto 0;
+    border-radius: 5px;
+}
+
+.btn-store {
+    color: #fff;
+    background-color: #000;
+    border-top: 1px solid #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 200px;
+    height: 35px;
+    padding: 5px 10px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+
+.left {
+    position: absolute;
+    width: 400px;
+    height: 900px;
+    margin-top: -900px;
+    margin-left: 20px;
+}
+.completed {
+    position: absolute;
+    margin-left: 0;
+    margin-top: 60px;
+    width: 0;
+    height: 30px;
+    background-color: blueviolet;
+}
+
+#message-pt-none {
+    position: absolute;
+    width: 350px;
+    margin: 0;
+    font-size: 18px;
+    color: #ff0000;
+    opacity: 0%;
+    transition: 300ms;
+}
+
+#message-pt-yes {
+    position: absolute;
+    margin-top: 30px;
+    width: 350px;
+    height: 30px;
+    transition: 300ms;
+    opacity: 0%;
+}
+
+#name-process {
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    margin-top: 30px;
+    opacity: 0%;
+    transition: 300ms;
+}
+
+.completed-width {
+    width: 350px;
+}
+
+.no-project {
+    display: none;
+}
+
+/*------------------------------
+    INFO
+------------------------------*/
+
+.info-block-close {
+    position: absolute;
+    display: flex;
+    margin-left: -330px;
+    margin-top: -940px;
+    transition: 1s;
+}
+
+.info-block-open {
+    margin-left: 0;
+    transition: 1s;
+}
+
+.info-content {
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 30px 0 40px 32px rgba(0, 0, 0, 0.4);
+    height: 1000px;
+    padding: 0 0 0 10px;
+}
+
+.info-content h3 {
+    font-size: 20px;
+}
+
+.info-content .text {
+    font-size: 18px;
+}
+
+.info-btn {
+    cursor: pointer;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 10px;
+    height: 40px;
+    opacity: 60%;
+}
+
+.info-btn:hover {
+    opacity: 100%;
+}
+
+.info-btn img {
+    margin: auto 2px;
+    width: 35px;
+    height: 35px;
+}
+
+.info-btn div {
+    margin: auto 2px;
+    font-weight: 500;
+    font-size: 24px;
+}
