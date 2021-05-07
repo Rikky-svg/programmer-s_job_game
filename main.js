@@ -6,7 +6,6 @@
 //  ПРОСЬБА НЕ РЕДАКТИРОВАТЬ И НЕ УДАЛЯТЬ ФАЙЛЫ
 //
 
-
 // HTML Elements // 
 let keyboard        = document.getElementsByClassName ('keyboard');
 let info            = document.getElementById ('info');
