@@ -296,3 +296,15 @@ body {
     font-weight: 500;
     font-size: 24px;
 }
+
+
+/*------------------------------
+    WATERMARK
+------------------------------*/
+
+.watermark {
+    position: absolute;
+    width: 475px;
+    height: 330px;
+    background-image: url('img/teg-rikky-6.svg');
+}
