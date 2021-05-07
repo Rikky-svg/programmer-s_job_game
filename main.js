@@ -49,6 +49,7 @@ let companyMassiv =
 //derivation of initial characteristics
 money.innerHTML = quantityMoney;
 costClickEl.innerHTML = + costBtnKeyboard [numderJob];
+costSecEl.innerHTML = 0;
 company.innerHTML = companyMassiv [numderJob];
 lack.innerHTML = lackValue;
 
@@ -133,11 +134,12 @@ function btnBuy (pt, name, time, costBuy, costProject) {
 
 
         setTimeout (function () {
+            costSec = costSec + costProject;
+            costSecEl.innerHTML = costSec;
+
             completed.style.transition = 'width 0s';
             completed.classList.remove ('completed-width');
             completed.style.opacity = '0%';
-
-            costSec = costSec + costProject;
             nameProcess.innerHTML = '';
             nameProcess.style.opacity = '0%';
             messPtYes.style.opacity = '100%';
