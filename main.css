@@ -304,7 +304,19 @@ body {
 
 .watermark {
     position: absolute;
-    width: 475px;
-    height: 330px;
+    width: 350px;
+    height: 240px;
     background-image: url('img/teg-rikky-6.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(-60deg);
+    opacity: 80%;
+    margin: -650px 0 0 20px;
+    transition: 200ms;
+}
+
+.watermark:hover {
+    transform: rotate(-50deg);
+    opacity: 100%;
+    transition: 200ms;
 }
