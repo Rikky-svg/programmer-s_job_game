@@ -107,7 +107,13 @@
             <div class="money dollars">
                 <div class="money-block">
                     <div class="s">$ </div>
-                    <div id="money"></div>
+                    <div id="money">
+                        <?php 
+                    
+                        echo ("322");
+                    
+                        ?>
+                    </div>
                 </div>
             </div>
 
