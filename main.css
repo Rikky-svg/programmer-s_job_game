@@ -148,6 +148,7 @@ body {
 }
 
 .name {
+    font-size: 20px;
     color: black;
     margin: auto 0 auto 10px;
     font-weight: 600;
@@ -303,20 +304,15 @@ body {
 ------------------------------*/
 
 .watermark {
-    position: absolute;
-    width: 350px;
-    height: 240px;
+    display: none;
+    position: fixed;
+    width: 730px;
+    height: 500px;
     background-image: url('img/teg-rikky-6.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    transform: rotate(-60deg);
-    opacity: 80%;
-    margin: -650px 0 0 20px;
-    transition: 200ms;
-}
-
-.watermark:hover {
-    transform: rotate(-50deg);
-    opacity: 100%;
+    transform: rotate(-25deg);
+    opacity: 30%;
+    margin: 0 0 0 0;
     transition: 200ms;
 }
